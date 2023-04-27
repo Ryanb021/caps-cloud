@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.321.1",
+    "chance": "^1.1.11"
+  }
+}
