@@ -2,8 +2,8 @@
 const { v4: uuidv4 } = require('uuid');
 const { Producer } = require('sqs-producer');
 const { Consumer } = require('sqs-consumer');
-const AWS_REGION = 'us-west-1';
-const AWS_QUEUE_URL = 'https://sqs.us-west-2.amazonaws.com/642529365533/PickupQueue.fifo';
+const AWS_REGION = 'us-west-2';
+const AWS_QUEUE_URL = 'https://sqs.us-west-2.amazonaws.com/642529365533/DeliveredQueue.fifo';
 
 
 const producer = Producer.create({
